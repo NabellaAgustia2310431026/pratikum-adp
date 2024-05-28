@@ -10,15 +10,13 @@ from termcolor import colored, cprint
 time.sleep(0.5)
 for i in range (2):
     cprint (" "*40, 'white', "on_blue")
-print (" ")
 
 time.sleep (0.5)
-print(colored("  |||      |||   |||   |||||    ||||||","blue"))
-print(colored("   ||      ||    |||   ||       ||  ||","blue"))
-print(colored("    ||    ||     |||   |||||    ||||||","blue"))
-print(colored("     ||  ||      |||      ||    ||  ||","blue"))
-print(colored("       ||        |||   |||||    ||  ||","blue"))
-print (" ")
+print(colored("  |||      |||   |||   |||||    ||||||","blue", "on_white"))
+print(colored("   ||      ||    |||   ||       ||  ||","blue", "on_white"))
+print(colored("    ||    ||     |||   |||||    ||||||","blue", "on_white"))
+print(colored("     ||  ||      |||      ||    ||  ||","blue", "on_white"))
+print(colored("       ||        |||   |||||    ||  ||","blue", "on_white"))
 
 time.sleep(0.5)
 for i in range (2):
